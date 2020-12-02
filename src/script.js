@@ -1,5 +1,6 @@
 import L from 'leaflet';
 import gsap from 'gsap';
+import './input.scss';
 
 gsap.to('h2', {duration: 5, x:450});
 gsap.to('#map', {duration: 5, x:-1820, opacity: 1});
